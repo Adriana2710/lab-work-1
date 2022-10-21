@@ -1,0 +1,26 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 25px;
+}
+
+header {   
+    font-style: italic;
+}
+
+header, main {
+    padding: 20px;
+    border-bottom: solid 1px lightblue;
+}
+
+header, footer {
+    text-align: center; 
+}
+
+
+
+
+
