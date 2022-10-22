@@ -1,27 +1,87 @@
+/* General CSS */
+
 * {
     box-sizing: border-box;
 }
 
 body {
     font-family: Arial, Helvetica, sans-serif;
+
 }
 
-table, th, td {
-    border: 1px solid black;
+/* Main CSS - Global */
+.title {
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+table {
+    margin: auto; 
     border-collapse: collapse;
-    text-align: center;
 }
 
-table, td {
-    max-width: 500px;
+section {
+    margin-bottom: 20px;
 }
 
-th {
+.diet-title, .stock-title {
     font-size: 30px;
     font-style: italic;
     padding: 30px;
 }
 
+/* Main CSS - Specific for each table */
+
+/* Diet Table */
+
+.diet-table, .diet-title, .diet-cell {
+    border: 1px solid black;   
+    text-align: center;
+    padding: 0 15px;
+}
+
+.diet-table, .diet-cell {
+    max-width: 500px;
+}
+
 .veges, .fruits {
     width: 75%;
+}
+
+/* Stock Table */
+
+.stock-table, .stock-title, .stock-sub, .stock-cell {
+    border: 3px solid black;
+    text-align: center;
+    padding: 15px;
+}
+
+.stock-sub {
+    text-transform: uppercase;
+}
+
+.cell-left {
+    text-align: left;
+    padding-left: 5px;
+}
+
+/* Stock2 Table */
+
+.stock2 {
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.stock2-title {
+    font-style: italic;
+    font-size: 22px;
+}
+
+.stock2-row:nth-child(odd) {
+    background-color: lightskyblue;
+}
+
+.stock2-table, .stock2-title, .stock2-sub {
+    border: none;
+    text-align: center;
+    padding: 5px;
 }
