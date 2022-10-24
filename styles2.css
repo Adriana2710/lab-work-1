@@ -80,6 +80,10 @@ section {
     background-color: lightskyblue;
 }
 
+.stock2-sub {
+    text-transform: uppercase;
+}
+
 .stock2-table, .stock2-title, .stock2-sub {
     border: none;
     text-align: center;
