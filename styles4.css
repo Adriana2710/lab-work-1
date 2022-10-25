@@ -1,0 +1,38 @@
+.container {
+    display: flex;
+    justify-content: center;
+}
+
+.square {
+    width: 200px;
+    height: 200px;
+    border: 2px solid blue;
+    background-color: red;
+   
+}
+
+.square__txt {
+    text-align: right;
+    font-size: 20px;
+    text-decoration: underline;
+    padding-right: 5px;
+}
+
+.circle {
+    width: 200px;
+    height: 200px;
+    border: 2px solid red;
+    border-radius: 50%;
+    background-color: blue;
+}
+
+.circle__txt {
+    text-align: center;
+    font-size: 2em;
+    margin-top: 80px;
+}
+
+.square, .circle {
+    margin: 5px;
+    color: white;
+}
