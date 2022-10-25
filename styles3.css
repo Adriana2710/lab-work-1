@@ -1,0 +1,30 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Courier New', Courier, monospace;
+}
+
+section {
+    margin: 10px;
+}
+
+h2 {
+    text-decoration: underline;
+    text-transform: uppercase;
+    color: lightcoral;
+}
+
+div {
+    padding-bottom: 5px;
+}
+
+button {
+    padding: 8px;
+    font-family: 'Courier New', Courier, monospace;
+    background-color: lightcoral;
+    border: 1px solid black;
+    border-radius: 5px;
+    color: white;
+}
