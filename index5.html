@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Activity 4 - Products</title>
+        <meta charset="utf-8">
+        <link rel="stylesheet" href="styles5.css">
+    </head>
+    <body>
+        <header>
+            <h1 id="header">Online Store</h1>
+        </header>
+        <section class="products">
+            <nav>
+                <ul>
+                    <li class="nav-links"><a href="#">Home</a></li>
+                    <li class="nav-links"><a href="#">Products</a></li>
+                    <li class="nav-links"><a href="#">About us</a></li>
+                </ul>
+            </nav>
+            <article>
+                <h2>Product 1</h2>
+                <p>Board Game</p>
+                <img src="boardgame.png" alt="A board game" />
+                <p>Price: $20</p>
+                <button>Comprar</button>
+            </article>
+            <aside id="aside">
+                <h2>Related</h2>
+                <ul>
+                    <li><a href="#">Article 1</a></li>
+                    <li><a href="#">Article 2</a></li>
+                </ul>
+            </aside>
+        </section>
+        <section class="address">
+            <form action="">
+                <h3>Sign Up with us!</h3>
+                <div class="inputs">
+                    <label for="fname">First Name:</label>
+                    <input type="text" placeholder="First Name">
+                </div>
+                <div class="inputs">
+                    <label for="lname">Last Name:</label>
+                    <input type="text" placeholder="Last Name">
+                </div>
+                <div class="inputs">
+                    <label for="phone">Phone Number:</label>
+                    <input type="number" placeholder="09-457978">
+                </div>
+                <div class="inputs">
+                    <label for="address">Address:</label>
+                    <input type="text" placeholder="Flat 9, 10 Queen Street">
+                </div>
+                <button onclick="signUp()" class="signButton">Sign Up Now</button>
+            </form>
+            <script>
+                function signUp() {
+                    alert("You signed up with succeed!")
+                }
+            </script>
+        </section>
+        <footer>
+            <p class="copyright">@copyright 2050 by nobody. all rights reversed</p>
+        </footer>
+
+        <script>
+            
+        </script>
+    </body>
+</html>

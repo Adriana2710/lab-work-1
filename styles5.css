@@ -1,0 +1,87 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Style the header */
+header {
+    background-color: blue;
+    padding: 30px;
+    text-align: center;
+    font-size: 35px;
+    color: white;
+}
+
+/* Create two columns/boxes that floats next to each other */
+nav {
+    float: left;
+    width: 30%;
+    height: 330px;
+    background-color: gold;
+    padding: 20px;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.nav-links, h2, p {
+    margin-bottom: 8px;
+}
+
+article {
+    float: left;
+    padding: 20px;
+    width: 70%;
+    height: 330px;
+    background-color: whitesmoke;
+}
+
+img {
+    width: 20%;
+}
+
+aside {
+    clear: both;
+    margin: 23px;
+}
+
+aside h2 {
+    padding-top: 15px;
+}
+.address {
+    background-color: whitesmoke;
+    padding: 20px;
+}
+
+.inputs {
+    padding: 10px;
+}
+
+button {
+    background-color: blue;
+    color: white;
+    border-radius: 5px;
+    padding: 10px;
+}
+
+.signButton {
+    background-color: lightskyblue; 
+    color: blue;
+}
+
+footer {
+    background-color: blue;
+    padding: 10px;
+    text-align: center;
+    color: white;
+}
+
+.copyright {
+    margin: 0;
+}
